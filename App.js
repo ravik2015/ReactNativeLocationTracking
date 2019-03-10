@@ -64,7 +64,10 @@ class AnimatedMarkers extends React.Component {
           latitude,
           longitude
         };
-        console.log({ newCoordinate });
+        console.log(
+          { newCoordinate },
+          "newCoordinatenewCoordinatenewCoordinatenewCoordinatenewCoordinate"
+        );
 
         if (Platform.OS === "android") {
           if (this.marker) {
